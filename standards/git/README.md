@@ -2,11 +2,11 @@
 
 ## Objetivo
 
-Este módulo tem como objetivo padronizar o uso de Git para colaboração, rastreabilidade e entrega incremental. Ele orienta planejamento, execução, revisão e evolução de entregas relacionadas ao tema.
+Este módulo define o padrão oficial de uso de Git e GitHub para projetos da Veltis. Ele orienta branch principal, fluxos de trabalho, commits, pull requests, tags, releases, resolução de conflitos e sincronização entre máquinas.
 
 ## Escopo
 
-O escopo inclui branches, commits, pull requests, tags, releases e revisão de mudanças. O conteúdo deve ser aplicável a diferentes projetos da Veltis e manter independência de decisões específicas de produto.
+O escopo inclui GitHub Flow, Git Flow, convenções de branches, commits semânticos, política de pull requests, tags, releases, hotfixes, conflitos de merge, sincronização entre máquinas, templates, exemplos, estudos de caso e ADRs.
 
 ## Estrutura
 
@@ -16,21 +16,21 @@ O escopo inclui branches, commits, pull requests, tags, releases e revisão de m
 - roadmap.md: evolução planejada por versão.
 - backlog.md: épicos e histórias priorizadas.
 - STATUS.md: situação atual do módulo.
-- docs/: guias e referências detalhadas.
-- templates/: modelos reutilizáveis.
-- examples/: exemplos genéricos e anonimizados.
-- case-studies/: estudos de caso aplicáveis ao domínio.
-- adr/: registros de decisão.
+- docs/: guias oficiais de uso de Git e GitHub.
+- templates/: modelos básicos e avançados.
+- examples/: exemplos práticos e aplicações em projetos reais.
+- case-studies/: estudos de caso de adoção.
+- adr/: decisões do módulo.
 - releases/: notas de publicação.
 - assets/: recursos auxiliares.
 
 ## Conteúdo
 
-O módulo deve conter orientações claras, exemplos reutilizáveis, critérios verificáveis e materiais que ajudem equipes a aplicar o padrão de forma consistente. Conteúdos específicos de produtos, dados sensíveis ou decisões sem valor recorrente não devem ser incluídos.
+A versão 1.0 inclui guias práticos, templates, exemplos com comandos reais, estudos de caso, ADRs e release notes. O conteúdo foi escrito para ser aplicado por projetos de diferentes portes, com foco em rastreabilidade, revisão, segurança e previsibilidade de entrega.
 
 ## Status
 
-O estado atual do módulo está registrado em STATUS.md, incluindo versão, responsável, última atualização e próximas entregas.
+O módulo está na versão 1.0 inicial, com a fundação completa publicada e pronto para adoção incremental por projetos da Veltis.
 
 ## Roadmap
 

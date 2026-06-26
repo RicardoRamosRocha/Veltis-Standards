@@ -2,52 +2,94 @@
 
 Este backlog registra melhorias planejadas para o Veltis Standards. Os itens devem ser refinados, priorizados e convertidos em entregas conforme a maturidade do framework evoluir.
 
+## Concluído
+
+### BKL-001 - Fundação do módulo Documentation
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão: 0.2.0
+
+Criar a versão 1.0 inicial completa do módulo Documentation com guias, templates, exemplos, estudo de caso, ADR e release notes.
+
+### BKL-002 - Fundação do módulo Git
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão: 0.3.0
+
+Criar a versão 1.0 inicial completa do módulo Git com guias, templates, exemplos, estudos de caso, ADRs e release notes.
+
 ## Alta prioridade
 
-### BKL-001 - Templates globais essenciais
+### BKL-003 - Checklists de revisão
 
-Criar modelos reutilizaveis para README de projeto, documento de requisitos, ADR, plano de testes, checklist de release e guia de onboarding.
+- Prioridade: Alta
+- Status: Planejado
+- Versão: 0.4.0
 
-### BKL-002 - Checklists de revisao
+Definir checklists objetivos para pull request, arquitetura, segurança, banco de dados, UI, testes e operação.
 
-Definir checklists objetivos para pull request, arquitetura, seguranca, banco de dados, UI, testes e operacao.
+### BKL-004 - Guia de ADR global
 
-### BKL-003 - Guia de ADR
+- Prioridade: Alta
+- Status: Planejado
+- Versão: 0.4.0
 
-Detalhar quando criar ADR, como nomear, como revisar e como relacionar uma decisao a requisitos e releases.
+Detalhar quando criar ADR, como nomear, como revisar e como relacionar uma decisão a requisitos e releases.
 
-### BKL-004 - Politica de versionamento dos padroes
+### BKL-005 - Política de versionamento dos padrões
 
-Definir como versoes globais e versoes por modulo devem ser publicadas, depreciadas e comunicadas.
+- Prioridade: Alta
+- Status: Planejado
+- Versão: 0.4.0
 
-## Media prioridade
+Definir como versões globais e versões por módulo devem ser publicadas, depreciadas e comunicadas.
 
-### BKL-005 - Exemplos por tecnologia
+## Média prioridade
 
-Adicionar exemplos genericos para ASP.NET Core, Flutter, pipelines CI/CD, modelagem de banco e documentacao de APIs.
+### BKL-006 - Exemplos por tecnologia
 
-### BKL-006 - Matriz de maturidade
+- Prioridade: Média
+- Status: Planejado
+- Versão: 0.5.0
 
-Criar matriz para avaliar aderencia de projetos aos padroes por tema, com niveis progressivos e recomendacoes de evolucao.
+Adicionar exemplos genéricos para ASP.NET Core, Flutter, pipelines CI/CD, modelagem de banco e documentação de APIs.
 
-### BKL-007 - Guia de excecoes
+### BKL-007 - Matriz de maturidade
 
-Definir processo para registrar, aprovar e revisar excecoes aos padroes.
+- Prioridade: Média
+- Status: Planejado
+- Versão: 0.5.0
 
-### BKL-008 - Taxonomia de documentos
+Criar matriz para avaliar aderência de projetos aos padrões por tema, com níveis progressivos e recomendações de evolução.
 
-Padronizar nomes, finalidade, localizacao e criterios de manutencao para documentos de projeto.
+### BKL-008 - Guia de exceções
+
+- Prioridade: Média
+- Status: Planejado
+- Versão: 0.5.0
+
+Definir processo para registrar, aprovar e revisar exceções aos padrões.
 
 ## Baixa prioridade
 
-### BKL-009 - Catalogo de estudos de caso
+### BKL-009 - Catálogo de estudos de caso
 
-Adicionar estudos de caso anonimizados demonstrando aplicacao dos padroes em diferentes tipos de projeto.
+- Prioridade: Baixa
+- Status: Planejado
+- Versão: 0.6.0
 
-### BKL-010 - Automacoes de validacao documental
+Adicionar estudos de caso anonimizados demonstrando aplicação dos padrões em diferentes tipos de projeto.
 
-Avaliar validacoes automatizadas para links, estrutura minima, nomenclatura e presenca de changelog.
+### BKL-010 - Automações de validação documental
 
-## Criterios de refinamento
+- Prioridade: Baixa
+- Status: Planejado
+- Versão: 0.6.0
 
-Um item de backlog esta pronto para execucao quando possui objetivo claro, escopo delimitado, impacto esperado, criterios de aceite e modulo responsavel.
+Avaliar validações automatizadas para links, estrutura mínima, nomenclatura e presença de changelog.
+
+## Critérios de refinamento
+
+Um item de backlog está pronto para execução quando possui objetivo claro, escopo delimitado, impacto esperado, critérios de aceite e módulo responsável.

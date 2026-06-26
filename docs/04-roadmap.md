@@ -1,62 +1,64 @@
 # Roadmap
 
-O roadmap organiza a evolucao do Veltis Standards em fases. As datas podem ser ajustadas conforme prioridade organizacional, mas a sequencia preserva uma progressao de maturidade: fundacao, aplicacao, governanca e automacao.
+O roadmap organiza a evolução do Veltis Standards em fases. As datas podem ser ajustadas conforme prioridade organizacional, mas a sequência preserva uma progressão de maturidade: fundação, aplicação, governança e automação.
 
-## Fase 1 - Fundacao
+## Fase 1 - Fundação
 
-Objetivo: estabelecer estrutura, linguagem comum e documentos minimos para versionamento.
+Objetivo: estabelecer estrutura, linguagem comum e documentos mínimos para versionamento.
 
-Entregas previstas:
+Entregas concluídas:
 
-- Documentacao central do framework.
-- Estrutura padronizada de modulos.
-- Manifesto inicial de cada modulo.
+- Documentação central do framework.
+- Estrutura padronizada de módulos.
+- Manifesto inicial de cada módulo.
 - Changelogs, roadmaps e backlogs iniciais.
-- Guia de contribuicao e politica inicial de uso.
+- Guia de contribuição e política inicial de uso.
+- Módulo Documentation v1.0 inicial completo.
+- Módulo Git v1.0 inicial completo.
 
 ## Fase 2 - Templates e checklists
 
-Objetivo: tornar os padroes diretamente aplicaveis no dia a dia das equipes.
+Objetivo: tornar os padrões diretamente aplicáveis no dia a dia das equipes.
 
 Entregas previstas:
 
-- Templates globais e por modulo.
-- Checklists de revisao tecnica.
-- Modelos de ADR, plano de testes, release notes e documentacao operacional.
-- Exemplos curtos para os principais fluxos de engenharia.
+- Checklists de revisão técnica.
+- Modelos de ADR, plano de testes, release notes e documentação operacional.
+- Templates e exemplos dos módulos críticos ainda pendentes.
+- Guias de adoção incremental para projetos existentes.
 
-## Fase 3 - Profundidade por dominio
+## Fase 3 - Profundidade por domínio
 
-Objetivo: detalhar guias praticos para areas de maior impacto tecnico.
+Objetivo: detalhar guias práticos para áreas de maior impacto técnico.
 
 Entregas previstas:
 
 - Guias de arquitetura e modularidade.
-- Baseline de seguranca e privacidade.
-- Padroes de APIs ASP.NET Core.
-- Estrategia de banco de dados e migracoes.
-- Padroes de UI, acessibilidade e Flutter.
-- Estrategia de testes e CI/CD.
+- Baseline de segurança e privacidade.
+- Padrões de APIs ASP.NET Core.
+- Estratégia de banco de dados e migrações.
+- Padrões de UI, acessibilidade e Flutter.
+- Estratégia de testes e CI/CD.
 
-## Fase 4 - Governanca e adocao
+## Fase 4 - Governança e adoção
 
-Objetivo: apoiar implantacao consistente dos padroes em projetos reais.
+Objetivo: apoiar implantação consistente dos padrões em projetos reais.
 
 Entregas previstas:
 
-- Processo de excecoes.
+- Processo de exceções.
 - Matriz de maturidade por projeto.
-- Roteiro de onboarding tecnico.
+- Roteiro de onboarding técnico.
 - Estudos de caso anonimizados.
-- Processo de revisao periodica dos modulos.
+- Processo de revisão periódica dos módulos.
 
-## Fase 5 - Automacao
+## Fase 5 - Automação
 
-Objetivo: reduzir verificacoes manuais e aumentar confiabilidade operacional.
+Objetivo: reduzir verificações manuais e aumentar confiabilidade operacional.
 
 Entregas previstas:
 
-- Validacao automatica de estrutura de modulos.
-- Verificacao de links e arquivos obrigatorios.
-- Relatorios de aderencia documental.
-- Integracao com fluxos de pull request quando aplicavel.
+- Validação automática de estrutura de módulos.
+- Verificação de links e arquivos obrigatórios.
+- Relatórios de aderência documental.
+- Integração com fluxos de pull request quando aplicável.

@@ -2,32 +2,33 @@
 
 ## Missão
 
-Estabelecer um padrão reutilizável para branches, commits, pull requests, tags, releases e revisão de mudanças. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
+Estabelecer um padrão único, profissional e reutilizável para uso de Git e GitHub em projetos da Veltis, reduzindo riscos de integração, melhorando rastreabilidade e apoiando colaboração técnica.
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar Git com qualidade, rastreabilidade e responsabilidade profissional.
+Ser a referência oficial para controle de versão, revisão, integração e releases em repositórios Veltis, permitindo que equipes trabalhem com histórico claro e fluxo previsível.
 
 ## Responsabilidades
 
-- Definir critérios claros para uso do padrão.
-- Manter conteúdo em português, profissional e reutilizável.
-- Preservar coerência com os demais módulos do Veltis Standards.
-- Registrar evolução por roadmap, backlog, changelog e status.
-- Apoiar revisão técnica com critérios objetivos.
+- Definir critérios para branch principal, branches temporárias e proteção de branches.
+- Padronizar commits semânticos e mensagens de mudança.
+- Orientar uso de pull requests, revisões e estratégias de merge.
+- Definir uso de tags, releases e hotfixes.
+- Fornecer templates, exemplos, estudos de caso e ADRs.
+- Manter conteúdo em português, profissional, seguro e reutilizável.
 
 ## O que cobre
 
-convenções de branch, mensagens de commit, critérios de pull request, revisão e versionamento.
+Este módulo cobre GitHub Flow, Git Flow, convenções de branches, commits, pull requests, tags, releases, conflitos de merge, sincronização entre máquinas, templates, exemplos, estudos de caso e decisões de governança Git.
 
 ## Limites
 
-Não cobre configurações privadas de repositórios, credenciais de acesso ou automações específicas de produto.
+Este módulo não cobre credenciais, tokens, secrets, configurações privadas de repositórios, scripts produtivos restritos ou automações específicas de um único produto sem valor reutilizável.
 
 ## Filosofia
 
-O padrão deve favorecer clareza, rastreabilidade e aplicação prática. A documentação deve orientar decisões reais, evitar excesso de abstração e permitir exceções justificadas quando o contexto técnico exigir.
+O uso de Git deve favorecer histórico compreensível, mudanças pequenas, revisão objetiva e recuperação segura. O fluxo deve ser simples quando possível e mais governado quando o risco do projeto exigir.
 
 ## Evolução
 
-A evolução ocorre por versões planejadas, revisão contínua e registro de mudanças relevantes. Novas orientações devem nascer no backlog, amadurecer em documentos ou templates e ser comunicadas no changelog quando impactarem a forma de trabalho das equipes.
+A evolução ocorre por versões planejadas, revisão contínua e registro de mudanças relevantes. Novas orientações devem nascer no backlog, amadurecer em guias, templates ou exemplos e ser comunicadas no changelog quando impactarem a forma de trabalho das equipes.

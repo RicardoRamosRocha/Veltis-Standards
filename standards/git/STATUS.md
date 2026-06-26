@@ -10,11 +10,11 @@ Git
 
 ## Status
 
-Em estruturação
+Versão inicial completa
 
 ## Objetivo
 
-padronizar o uso de Git para rastreabilidade, colaboração e entrega incremental.
+Definir o padrão oficial de uso de Git e GitHub para todos os projetos da Veltis, cobrindo branches, commits, pull requests, tags, releases, conflitos, sincronização, templates, exemplos, estudos de caso e ADRs.
 
 ## Responsável
 
@@ -26,6 +26,7 @@ Governança de Engenharia da Veltis
 
 ## Próximas entregas
 
-- guia de fluxo Git, template de PR e checklist de revisão.
-- Revisar exemplos e templates específicos do módulo.
-- Definir critérios de aceite para a próxima versão planejada.
+- Criar checklists de revisão Git e GitHub para a versão 1.1.
+- Adicionar exemplos de proteção de branch no GitHub.
+- Definir critérios de auditoria de repositórios.
+- Avaliar automações de validação para versões futuras.

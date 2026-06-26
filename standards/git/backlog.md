@@ -2,75 +2,83 @@
 
 ## Épicos
 
-### EP-01 - Fundação do padrão
+### EP-01 - Fundação do padrão Git
 
 - Prioridade: Alta
-- Status: Em andamento
+- Status: Concluído
 - Versão: 1.0
 
-Consolidar documentos principais, critérios mínimos e estrutura de governança do módulo.
+Consolidar guias, templates, exemplos, estudos de caso, ADRs, release notes e arquivos principais do módulo Git.
 
-### EP-02 - Aplicação prática
+### EP-02 - Aplicação prática e revisão
 
 - Prioridade: Alta
 - Status: Planejado
 - Versão: 1.1
 
-Criar templates, exemplos e checklists que permitam aplicação consistente do padrão em projetos.
+Criar checklists, exemplos de configuração GitHub e orientações para gestão de issues e projetos.
 
-### EP-03 - Governança e maturidade
+### EP-03 - Governança e auditoria
 
 - Prioridade: Média
 - Status: Planejado
 - Versão: 1.2
 
-Registrar decisões, estudos de caso e critérios de exceção para fortalecer a evolução do módulo.
+Definir critérios de auditoria, exceções e estudos de caso adicionais para repositórios Veltis.
 
-### EP-04 - Operação contínua
+### EP-04 - Automação e maturidade
 
 - Prioridade: Média
 - Status: Planejado
 - Versão: 2.0
 
-Definir indicadores, revisão periódica e integração com fluxos de entrega quando aplicável.
+Avaliar automações, métricas e indicadores de maturidade Git.
 
 ## Histórias
 
-### US-01 - Guia principal do módulo
+### US-01 - Consultar guia oficial Git
 
-Como pessoa de engenharia, quero consultar um guia principal de Git, para aplicar o padrão com clareza em projetos da Veltis.
+Como pessoa de engenharia, quero consultar um guia oficial de Git, para aplicar o fluxo correto em projetos da Veltis.
 
 - Prioridade: Alta
-- Status: Planejado
+- Status: Concluído
 - Versão: 1.0
 
-### US-02 - Template reutilizável
+### US-02 - Usar commits semânticos
 
-Como pessoa responsável por uma entrega, quero usar um template do módulo, para reduzir variação e acelerar documentação ou revisão.
-
-- Prioridade: Alta
-- Status: Planejado
-- Versão: 1.1
-
-### US-03 - Checklist de revisão
-
-Como pessoa revisora, quero validar entregas com uma checklist objetiva, para identificar lacunas antes da aprovação.
+Como pessoa autora de mudanças, quero seguir uma convenção de commit, para manter histórico legível e rastreável.
 
 - Prioridade: Alta
-- Status: Planejado
-- Versão: 1.1
+- Status: Concluído
+- Versão: 1.0
 
-### US-04 - Critérios de exceção
+### US-03 - Abrir pull requests consistentes
 
-Como liderança técnica, quero registrar exceções justificadas ao padrão, para preservar rastreabilidade sem bloquear decisões contextualizadas.
+Como pessoa revisora, quero PRs com contexto e validação, para revisar mudanças com segurança.
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão: 1.0
+
+### US-04 - Publicar releases rastreáveis
+
+Como pessoa responsável por release, quero usar tags e release notes, para comunicar versões de forma auditável.
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão: 1.0
+
+### US-05 - Auditar repositórios GitHub
+
+Como governança de engenharia, quero critérios de auditoria GitHub, para avaliar aderência dos projetos ao padrão.
 
 - Prioridade: Média
 - Status: Planejado
 - Versão: 1.2
 
-### US-05 - Indicadores de maturidade
+### US-06 - Medir maturidade Git
 
-Como pessoa mantenedora, quero acompanhar aderência e evolução do módulo, para priorizar melhorias com base em uso real.
+Como liderança técnica, quero indicadores de maturidade Git, para priorizar melhorias em repositórios.
 
 - Prioridade: Média
 - Status: Planejado
