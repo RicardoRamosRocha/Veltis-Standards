@@ -1,37 +1,77 @@
 # Backlog - UI
 
-## Itens prioritarios
+## Épicos
 
-### UI-001 - Guia principal do modulo
+### EP-01 - Fundação do padrão
 
-Criar um guia detalhado para interfaces digitais e experiencia do usuario, explicando principios, criterios de aplicacao, responsabilidades e exemplos de uso.
+- Prioridade: Alta
+- Status: Em andamento
+- Versão prevista: 1.0
 
-### UI-002 - Template inicial
+Consolidar documentos principais, critérios mínimos e estrutura de governança do módulo.
 
-Criar um template reutilizavel que ajude equipes a aplicar o padrao sem iniciar do zero.
+### EP-02 - Aplicação prática
 
-### UI-003 - Checklist de revisao
+- Prioridade: Alta
+- Status: Planejado
+- Versão prevista: 1.1
 
-Definir uma checklist objetiva para validar entregas relacionadas ao modulo durante planejamento, pull request ou release.
+Criar templates, exemplos e checklists que permitam aplicação consistente do padrão em projetos.
 
-### UI-004 - Exemplos genericos
+### EP-03 - Governança e maturidade
 
-Adicionar exemplos anonimizados que demonstrem aplicacao correta do padrao em cenarios comuns.
+- Prioridade: Média
+- Status: Planejado
+- Versão prevista: 1.2
 
-## Itens de melhoria
+Registrar decisões, estudos de caso e critérios de exceção para fortalecer a evolução do módulo.
 
-### UI-005 - Criterios de excecao
+### EP-04 - Operação contínua
 
-Documentar quando uma equipe pode divergir do padrao, quais justificativas sao aceitaveis e como registrar a decisao.
+- Prioridade: Média
+- Status: Planejado
+- Versão prevista: 2.0
 
-### UI-006 - Relacionamento com outros modulos
+Definir indicadores, revisão periódica e integração com fluxos de entrega quando aplicável.
 
-Mapear dependencias e referencias cruzadas com modulos relacionados para evitar duplicidade de conteudo.
+## Histórias
 
-### UI-007 - Estudos de caso
+### US-01 - Guia principal do módulo
 
-Criar estudos de caso anonimizados para demonstrar impacto do padrao em projetos reais ou representativos.
+Como pessoa de engenharia, quero consultar um guia principal de UI, para aplicar o padrão com clareza em projetos da Veltis.
 
-## Criterios de pronto
+- Prioridade: Alta
+- Status: Planejado
+- Versão prevista: 1.0
 
-Um item deste backlog esta pronto para execucao quando possui objetivo claro, escopo delimitado, criterio de aceite e impacto esperado no uso do modulo.
+### US-02 - Template reutilizável
+
+Como pessoa responsável por uma entrega, quero usar um template do módulo, para reduzir variação e acelerar documentação ou revisão.
+
+- Prioridade: Alta
+- Status: Planejado
+- Versão prevista: 1.1
+
+### US-03 - Checklist de revisão
+
+Como pessoa revisora, quero validar entregas com uma checklist objetiva, para identificar lacunas antes da aprovação.
+
+- Prioridade: Alta
+- Status: Planejado
+- Versão prevista: 1.1
+
+### US-04 - Critérios de exceção
+
+Como liderança técnica, quero registrar exceções justificadas ao padrão, para preservar rastreabilidade sem bloquear decisões contextualizadas.
+
+- Prioridade: Média
+- Status: Planejado
+- Versão prevista: 1.2
+
+### US-05 - Indicadores de maturidade
+
+Como pessoa mantenedora, quero acompanhar aderência e evolução do módulo, para priorizar melhorias com base em uso real.
+
+- Prioridade: Média
+- Status: Planejado
+- Versão prevista: 2.0

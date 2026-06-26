@@ -1,37 +1,33 @@
-# Manifesto do Modulo Database
+# Manifesto - Database
 
-## Identidade
+## Missão
 
-- Modulo: $(System.Collections.Hashtable.S)
-- Nome: Database
-- Area: banco de dados e persistencia
-- Status: inicial
-- Responsabilidade: definir principios para modelagem, migracoes, nomenclatura, integridade, performance, auditoria, backup e operacao de dados
+Estabelecer um padrão reutilizável para modelagem, nomenclatura, migrações, integridade, performance, auditoria, backup e governança de dados. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
-## Contrato do modulo
+## Visão
 
-Este modulo deve manter a estrutura padrao definida pelo Veltis Standards: README.md, MANIFEST.md, CHANGELOG.md, oadmap.md, acklog.md, docs/, 	emplates/, examples/, case-studies/, dr/, eleases/ e ssets/.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Database com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
-- Definir criterios reutilizaveis para banco de dados e persistencia.
-- Orientar equipes sobre quando e como aplicar o padrao.
-- Manter templates e exemplos coerentes com a pratica recomendada.
-- Registrar evolucao, decisoes e pendencias relevantes.
-- Evitar dependencia de um produto especifico da Veltis.
+- Definir critérios claros para uso do padrão.
+- Manter conteúdo em português, profissional e reutilizável.
+- Preservar coerência com os demais módulos do Veltis Standards.
+- Registrar evolução por roadmap, backlog, changelog e status.
+- Apoiar revisão técnica com critérios objetivos.
 
-## Entregaveis
+## O que cobre
 
-Os principais entregaveis esperados sao: convencoes de schema, guias de migracao, criterios de modelagem, checklist de performance e exemplos de evolucao.
+Este módulo cobre convenções de schema, critérios de migração, revisão de consultas, proteção de dados e operação.
 
-## Criterios de aceite para evolucao
+## O que não cobre
 
-Uma mudanca neste modulo deve preservar a estrutura obrigatoria, deixar claro o problema que resolve, indicar impacto em projetos existentes quando houver, atualizar changelog, roadmap ou backlog conforme necessario e manter consistencia com os demais modulos.
+Este módulo não cobre dados reais, credenciais, dumps, scripts sensíveis ou topologias produtivas restritas.
 
-## Governanca
+## Filosofia
 
-Alteracoes pequenas podem ser revisadas dentro do proprio modulo. Alteracoes que criem obrigatoriedade, alterem fluxo de trabalho, impactem seguranca ou afetem mais de um modulo devem receber revisao tecnica mais ampla.
+O padrão deve favorecer clareza, rastreabilidade e aplicação prática. A documentação deve orientar decisões reais, evitar excesso de abstração e permitir exceções justificadas quando o contexto técnico exigir.
 
-## Qualidade esperada
+## Evolução
 
-O modulo deve favorecer modelos consistentes, migracoes revisaveis, integridade preservada, dados protegidos e operacao previsivel. Conteudos que nao ajudem uma decisao, revisao ou execucao devem ser simplificados, movidos para exemplos ou removidos.
+A evolução ocorre por versões planejadas, revisão contínua e registro de mudanças relevantes. Novas orientações devem nascer no backlog, amadurecer em documentos ou templates e ser comunicadas no changelog quando impactarem a forma de trabalho das equipes.

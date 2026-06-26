@@ -1,40 +1,37 @@
 # Roadmap - Database
 
-## Objetivo
+## Versão 1.0
 
-Evoluir o modulo Database de uma estrutura inicial para um conjunto completo de orientacoes, templates, exemplos e criterios verificaveis para banco de dados e persistencia.
+Objetivo: consolidar a fundação do módulo.
 
-## Fase 1 - Fundacao
+- Finalizar manifesto, README, status e backlog padronizados.
+- Criar o guia principal do tema.
+- Definir critérios mínimos de aplicação e revisão.
+- Mapear dependências com outros módulos do Veltis Standards.
 
-- Consolidar manifesto, escopo e criterios de qualidade.
-- Identificar decisoes recorrentes relacionadas ao tema.
-- Definir os primeiros documentos detalhados em docs/.
-- Mapear dependencias com outros modulos de standards/.
+## Versão 1.1
 
-## Fase 2 - Aplicacao pratica
+Objetivo: tornar o padrão mais aplicável no dia a dia.
 
-- Criar templates prioritarios para uso em projetos.
-- Adicionar exemplos genericos e anonimizados.
-- Definir checklists de revisao relacionados ao modulo.
-- Registrar criterios de aceite para entregas que dependem deste padrao.
+- Criar templates prioritários.
+- Adicionar exemplos genéricos e anonimizados.
+- Publicar checklist inicial de revisão.
+- Documentar exceções comuns e critérios de aceite.
 
-## Fase 3 - Governanca
+## Versão 1.2
 
-- Definir processo de excecoes e revisao periodica.
-- Adicionar ADRs para decisoes estruturais do modulo.
-- Criar notas de release por marco relevante.
-- Medir aderencia do padrao em projetos selecionados.
+Objetivo: fortalecer governança e consistência.
 
-## Fase 4 - Maturidade
+- Criar estudos de caso aplicáveis.
+- Registrar decisões relevantes em ADRs.
+- Refinar critérios com base no uso em projetos.
+- Atualizar changelog e notas de release do módulo.
 
-- Refinar exemplos com base em estudos de caso.
-- Integrar criterios do modulo a fluxos de pull request, QA ou release quando aplicavel.
-- Remover orientacoes redundantes ou obsoletas.
-- Estabelecer indicadores de qualidade e manutencao.
+## Versão 2.0
 
-## Prioridades iniciais
+Objetivo: estabelecer maturidade operacional do padrão.
 
-1. Criar guia principal em docs/.
-2. Criar ao menos um template reutilizavel.
-3. Criar checklist de revisao.
-4. Documentar excecoes comuns e criterios de decisao.
+- Integrar o módulo a fluxos de revisão e entrega quando aplicável.
+- Definir indicadores de aderência e qualidade.
+- Remover orientações obsoletas ou redundantes.
+- Consolidar processo de revisão periódica.

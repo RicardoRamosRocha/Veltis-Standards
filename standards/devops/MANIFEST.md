@@ -1,37 +1,33 @@
-# Manifesto do Modulo DevOps
+# Manifesto - DevOps
 
-## Identidade
+## Missão
 
-- Modulo: $(System.Collections.Hashtable.S)
-- Nome: DevOps
-- Area: entrega continua e operacao
-- Status: inicial
-- Responsabilidade: padronizar ambientes, pipelines, releases, infraestrutura, observabilidade, configuracao, rollback e operacao continua
+Estabelecer um padrão reutilizável para CI/CD, ambientes, releases, rollback, configuração, infraestrutura, monitoramento e resposta operacional. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
-## Contrato do modulo
+## Visão
 
-Este modulo deve manter a estrutura padrao definida pelo Veltis Standards: README.md, MANIFEST.md, CHANGELOG.md, oadmap.md, acklog.md, docs/, 	emplates/, examples/, case-studies/, dr/, eleases/ e ssets/.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema DevOps com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
-- Definir criterios reutilizaveis para entrega continua e operacao.
-- Orientar equipes sobre quando e como aplicar o padrao.
-- Manter templates e exemplos coerentes com a pratica recomendada.
-- Registrar evolucao, decisoes e pendencias relevantes.
-- Evitar dependencia de um produto especifico da Veltis.
+- Definir critérios claros para uso do padrão.
+- Manter conteúdo em português, profissional e reutilizável.
+- Preservar coerência com os demais módulos do Veltis Standards.
+- Registrar evolução por roadmap, backlog, changelog e status.
+- Apoiar revisão técnica com critérios objetivos.
 
-## Entregaveis
+## O que cobre
 
-Os principais entregaveis esperados sao: guias de CI/CD, templates de pipeline, checklist de release, criterios de monitoramento e plano de rollback.
+Este módulo cobre templates de pipeline, critérios de release, observabilidade, gestão de configuração e prontidão operacional.
 
-## Criterios de aceite para evolucao
+## O que não cobre
 
-Uma mudanca neste modulo deve preservar a estrutura obrigatoria, deixar claro o problema que resolve, indicar impacto em projetos existentes quando houver, atualizar changelog, roadmap ou backlog conforme necessario e manter consistencia com os demais modulos.
+Este módulo não cobre credenciais, detalhes sensíveis de infraestrutura, scripts produtivos restritos ou runbooks confidenciais.
 
-## Governanca
+## Filosofia
 
-Alteracoes pequenas podem ser revisadas dentro do proprio modulo. Alteracoes que criem obrigatoriedade, alterem fluxo de trabalho, impactem seguranca ou afetem mais de um modulo devem receber revisao tecnica mais ampla.
+O padrão deve favorecer clareza, rastreabilidade e aplicação prática. A documentação deve orientar decisões reais, evitar excesso de abstração e permitir exceções justificadas quando o contexto técnico exigir.
 
-## Qualidade esperada
+## Evolução
 
-O modulo deve favorecer entregas repetiveis, ambientes previsiveis, falhas observaveis, rollback planejado e operacao documentada. Conteudos que nao ajudem uma decisao, revisao ou execucao devem ser simplificados, movidos para exemplos ou removidos.
+A evolução ocorre por versões planejadas, revisão contínua e registro de mudanças relevantes. Novas orientações devem nascer no backlog, amadurecer em documentos ou templates e ser comunicadas no changelog quando impactarem a forma de trabalho das equipes.

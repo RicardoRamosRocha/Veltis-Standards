@@ -1,37 +1,33 @@
-# Manifesto do Modulo AI
+# Manifesto - AI
 
-## Identidade
+## Missão
 
-- Modulo: $(System.Collections.Hashtable.S)
-- Nome: AI
-- Area: inteligencia artificial aplicada a produtos e engenharia
-- Status: inicial
-- Responsabilidade: definir criterios para uso responsavel de IA, avaliacao, seguranca, privacidade, rastreabilidade, prompts, modelos e monitoramento
+Estabelecer um padrão reutilizável para prompts, modelos, avaliação, privacidade, segurança, monitoramento, riscos e intervenção humana. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
-## Contrato do modulo
+## Visão
 
-Este modulo deve manter a estrutura padrao definida pelo Veltis Standards: README.md, MANIFEST.md, CHANGELOG.md, oadmap.md, acklog.md, docs/, 	emplates/, examples/, case-studies/, dr/, eleases/ e ssets/.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema AI com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
-- Definir criterios reutilizaveis para inteligencia artificial aplicada a produtos e engenharia.
-- Orientar equipes sobre quando e como aplicar o padrao.
-- Manter templates e exemplos coerentes com a pratica recomendada.
-- Registrar evolucao, decisoes e pendencias relevantes.
-- Evitar dependencia de um produto especifico da Veltis.
+- Definir critérios claros para uso do padrão.
+- Manter conteúdo em português, profissional e reutilizável.
+- Preservar coerência com os demais módulos do Veltis Standards.
+- Registrar evolução por roadmap, backlog, changelog e status.
+- Apoiar revisão técnica com critérios objetivos.
 
-## Entregaveis
+## O que cobre
 
-Os principais entregaveis esperados sao: guias de uso de IA, templates de avaliacao, criterios de risco, checklist de privacidade e exemplos de desenho responsavel.
+Este módulo cobre governança de IA, avaliação de resultados, proteção de dados, rastreabilidade e desenho responsável.
 
-## Criterios de aceite para evolucao
+## O que não cobre
 
-Uma mudanca neste modulo deve preservar a estrutura obrigatoria, deixar claro o problema que resolve, indicar impacto em projetos existentes quando houver, atualizar changelog, roadmap ou backlog conforme necessario e manter consistencia com os demais modulos.
+Este módulo não cobre dados sensíveis, prompts com informações confidenciais, chaves de provedores ou detalhes de produtos específicos.
 
-## Governanca
+## Filosofia
 
-Alteracoes pequenas podem ser revisadas dentro do proprio modulo. Alteracoes que criem obrigatoriedade, alterem fluxo de trabalho, impactem seguranca ou afetem mais de um modulo devem receber revisao tecnica mais ampla.
+O padrão deve favorecer clareza, rastreabilidade e aplicação prática. A documentação deve orientar decisões reais, evitar excesso de abstração e permitir exceções justificadas quando o contexto técnico exigir.
 
-## Qualidade esperada
+## Evolução
 
-O modulo deve favorecer uso intencional, riscos avaliados, resultados monitorados, dados protegidos e decisao humana preservada quando necessario. Conteudos que nao ajudem uma decisao, revisao ou execucao devem ser simplificados, movidos para exemplos ou removidos.
+A evolução ocorre por versões planejadas, revisão contínua e registro de mudanças relevantes. Novas orientações devem nascer no backlog, amadurecer em documentos ou templates e ser comunicadas no changelog quando impactarem a forma de trabalho das equipes.

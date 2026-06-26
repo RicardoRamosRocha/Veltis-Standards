@@ -1,37 +1,33 @@
-# Manifesto do Modulo Security
+# Manifesto - Security
 
-## Identidade
+## Missão
 
-- Modulo: $(System.Collections.Hashtable.S)
-- Nome: Security
-- Area: seguranca e privacidade
-- Status: inicial
-- Responsabilidade: estabelecer controles minimos para autenticacao, autorizacao, dados sensiveis, segredos, auditoria, dependencias e resposta a incidentes
+Estabelecer um padrão reutilizável para autenticação, autorização, dados sensíveis, segredos, dependências, auditoria, privacidade e resposta a incidentes. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
-## Contrato do modulo
+## Visão
 
-Este modulo deve manter a estrutura padrao definida pelo Veltis Standards: README.md, MANIFEST.md, CHANGELOG.md, oadmap.md, acklog.md, docs/, 	emplates/, examples/, case-studies/, dr/, eleases/ e ssets/.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Security com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
-- Definir criterios reutilizaveis para seguranca e privacidade.
-- Orientar equipes sobre quando e como aplicar o padrao.
-- Manter templates e exemplos coerentes com a pratica recomendada.
-- Registrar evolucao, decisoes e pendencias relevantes.
-- Evitar dependencia de um produto especifico da Veltis.
+- Definir critérios claros para uso do padrão.
+- Manter conteúdo em português, profissional e reutilizável.
+- Preservar coerência com os demais módulos do Veltis Standards.
+- Registrar evolução por roadmap, backlog, changelog e status.
+- Apoiar revisão técnica com critérios objetivos.
 
-## Entregaveis
+## O que cobre
 
-Os principais entregaveis esperados sao: baseline de seguranca, checklists de revisao, criterios de privacidade, modelos de ameaca e guias de tratamento de vulnerabilidades.
+Este módulo cobre baseline de segurança, revisão de riscos, proteção de dados, tratamento de vulnerabilidades e boas práticas operacionais.
 
-## Criterios de aceite para evolucao
+## O que não cobre
 
-Uma mudanca neste modulo deve preservar a estrutura obrigatoria, deixar claro o problema que resolve, indicar impacto em projetos existentes quando houver, atualizar changelog, roadmap ou backlog conforme necessario e manter consistencia com os demais modulos.
+Este módulo não cobre segredos, relatórios sensíveis de incidentes, detalhes exploráveis ou configurações produtivas restritas.
 
-## Governanca
+## Filosofia
 
-Alteracoes pequenas podem ser revisadas dentro do proprio modulo. Alteracoes que criem obrigatoriedade, alterem fluxo de trabalho, impactem seguranca ou afetem mais de um modulo devem receber revisao tecnica mais ampla.
+O padrão deve favorecer clareza, rastreabilidade e aplicação prática. A documentação deve orientar decisões reais, evitar excesso de abstração e permitir exceções justificadas quando o contexto técnico exigir.
 
-## Qualidade esperada
+## Evolução
 
-O modulo deve favorecer riscos conhecidos, controles documentados, dados protegidos, segredos fora do repositorio e evidencias auditaveis. Conteudos que nao ajudem uma decisao, revisao ou execucao devem ser simplificados, movidos para exemplos ou removidos.
+A evolução ocorre por versões planejadas, revisão contínua e registro de mudanças relevantes. Novas orientações devem nascer no backlog, amadurecer em documentos ou templates e ser comunicadas no changelog quando impactarem a forma de trabalho das equipes.

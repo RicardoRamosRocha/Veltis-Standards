@@ -1,37 +1,33 @@
-# Manifesto do Modulo Documentation
+# Manifesto - Documentation
 
-## Identidade
+## Missão
 
-- Modulo: $(System.Collections.Hashtable.S)
-- Nome: Documentation
-- Area: documentacao tecnica e de produto
-- Status: inicial
-- Responsabilidade: padronizar como informacoes de produto, engenharia, arquitetura, operacao e suporte sao registradas, revisadas e mantidas
+Estabelecer um padrão reutilizável para documentos de produto, requisitos, arquitetura, operação, onboarding, decisões técnicas e critérios editoriais. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
-## Contrato do modulo
+## Visão
 
-Este modulo deve manter a estrutura padrao definida pelo Veltis Standards: README.md, MANIFEST.md, CHANGELOG.md, oadmap.md, acklog.md, docs/, 	emplates/, examples/, case-studies/, dr/, eleases/ e ssets/.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Documentation com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
-- Definir criterios reutilizaveis para documentacao tecnica e de produto.
-- Orientar equipes sobre quando e como aplicar o padrao.
-- Manter templates e exemplos coerentes com a pratica recomendada.
-- Registrar evolucao, decisoes e pendencias relevantes.
-- Evitar dependencia de um produto especifico da Veltis.
+- Definir critérios claros para uso do padrão.
+- Manter conteúdo em português, profissional e reutilizável.
+- Preservar coerência com os demais módulos do Veltis Standards.
+- Registrar evolução por roadmap, backlog, changelog e status.
+- Apoiar revisão técnica com critérios objetivos.
 
-## Entregaveis
+## O que cobre
 
-Os principais entregaveis esperados sao: modelos de documentos, taxonomia documental, criterios de qualidade textual, guias de manutencao e exemplos de estrutura.
+Este módulo cobre modelos documentais, critérios de clareza, taxonomia, ciclo de vida de documentos e práticas de revisão.
 
-## Criterios de aceite para evolucao
+## O que não cobre
 
-Uma mudanca neste modulo deve preservar a estrutura obrigatoria, deixar claro o problema que resolve, indicar impacto em projetos existentes quando houver, atualizar changelog, roadmap ou backlog conforme necessario e manter consistencia com os demais modulos.
+Este módulo não cobre código-fonte de produtos, documentação confidencial de clientes ou materiais específicos sem valor reutilizável.
 
-## Governanca
+## Filosofia
 
-Alteracoes pequenas podem ser revisadas dentro do proprio modulo. Alteracoes que criem obrigatoriedade, alterem fluxo de trabalho, impactem seguranca ou afetem mais de um modulo devem receber revisao tecnica mais ampla.
+O padrão deve favorecer clareza, rastreabilidade e aplicação prática. A documentação deve orientar decisões reais, evitar excesso de abstração e permitir exceções justificadas quando o contexto técnico exigir.
 
-## Qualidade esperada
+## Evolução
 
-O modulo deve favorecer documentos com objetivo claro, publico definido, data de atualizacao, dono responsavel e relacao explicita com decisoes ou processos. Conteudos que nao ajudem uma decisao, revisao ou execucao devem ser simplificados, movidos para exemplos ou removidos.
+A evolução ocorre por versões planejadas, revisão contínua e registro de mudanças relevantes. Novas orientações devem nascer no backlog, amadurecer em documentos ou templates e ser comunicadas no changelog quando impactarem a forma de trabalho das equipes.

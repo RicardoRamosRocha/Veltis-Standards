@@ -1,41 +1,41 @@
-# Documentation Standard
+# Documentation
 
-## Proposito
+## Objetivo
 
-O modulo Documentation define o padrao da Veltis para documentacao tecnica e de produto. Seu objetivo e padronizar como informacoes de produto, engenharia, arquitetura, operacao e suporte sao registradas, revisadas e mantidas.
-
-Este modulo deve ser usado como referencia em novos projetos, revisoes tecnicas, evolucao de sistemas existentes e definicao de criterios de aceite relacionados ao tema.
+Este módulo tem como objetivo padronizar a criação, manutenção e revisão de documentação técnica, de produto e de operação. Ele deve servir como referência profissional para planejamento, execução, revisão e evolução de trabalhos relacionados ao tema.
 
 ## Escopo
 
-O modulo cobre principios e criterios aplicaveis ao tema, responsabilidades minimas esperadas em projetos da Veltis, artefatos reutilizaveis para planejamento, execucao e revisao, exemplos e templates que reduzem ambiguidade, alem de registros de decisao e historico de evolucao do padrao.
+O escopo inclui documentos de produto, requisitos, arquitetura, operação, onboarding, decisões técnicas e critérios editoriais. O conteúdo deve ser aplicável a diferentes projetos da Veltis e manter independência de decisões específicas de produto.
 
-## Fora de escopo
+## Estrutura
 
-Este modulo nao deve conter codigo-fonte de produto, configuracoes sensiveis, dados reais de clientes ou documentacao operacional restrita. Conteudos especificos de um produto devem permanecer no repositorio do produto e apenas referenciar este padrao quando aplicavel.
+- README.md: visão geral do módulo.
+- MANIFEST.md: missão, responsabilidades e filosofia do padrão.
+- CHANGELOG.md: histórico de mudanças relevantes.
+- oadmap.md: evolução planejada por versão.
+- acklog.md: épicos e histórias priorizadas.
+- STATUS.md: situação atual do módulo.
+- docs/: guias e referências detalhadas.
+- 	emplates/: modelos reutilizáveis.
+- examples/: exemplos genéricos e anonimizados.
+- case-studies/: estudos de caso aplicáveis ao domínio.
+- dr/: registros de decisão.
+- eleases/: notas de publicação.
+- ssets/: recursos auxiliares.
 
-## Artefatos esperados
+## Conteúdo
 
-- docs/: guias detalhados e referencias de uso.
-- 	emplates/: modelos reutilizaveis.
-- examples/: exemplos genericos e anonimizados.
-- case-studies/: estudos de caso aplicaveis ao dominio.
-- dr/: decisoes relevantes para evolucao do modulo.
-- eleases/: notas de publicacao do modulo.
-- ssets/: diagramas, imagens e materiais auxiliares.
+O módulo deve conter orientações claras, exemplos reutilizáveis, critérios verificáveis e materiais que ajudem equipes a aplicar o padrão de forma consistente. Conteúdos específicos de produtos, dados sensíveis ou decisões sem valor recorrente não devem ser incluídos.
 
-## Como aplicar
+## Roadmap
 
-1. Identifique se a entrega possui impacto em documentacao tecnica e de produto.
-2. Consulte o manifesto do modulo para entender responsabilidades e criterios obrigatorios.
-3. Use os templates disponiveis como ponto de partida.
-4. Registre excecoes quando o projeto precisar divergir do padrao.
-5. Atualize backlog, roadmap ou changelog quando uma melhoria no padrao for identificada.
+A evolução do módulo é descrita em oadmap.md, organizada pelas versões 1.0, 1.1, 1.2 e 2.0. Cada versão representa um incremento planejado de maturidade, indo da fundação documental até governança e melhoria contínua.
 
-## Criterios de qualidade
+## Backlog
 
-Um uso adequado deste modulo deve resultar em documentos com objetivo claro, publico definido, data de atualizacao, dono responsavel e relacao explicita com decisoes ou processos.
+O backlog do módulo está em acklog.md e organiza o trabalho por épicos e histórias, com prioridade, status e versão prevista. Novas demandas devem ser registradas ali antes de virarem alterações estruturais.
 
-## Relacionamentos
+## Status
 
-Este modulo pode se relacionar com outros padroes em standards/. Quando houver dependencia de outro dominio, prefira referenciar o modulo responsavel em vez de duplicar orientacoes.
+O estado atual do módulo está registrado em STATUS.md, incluindo versão, responsável, última atualização e próximas entregas.
