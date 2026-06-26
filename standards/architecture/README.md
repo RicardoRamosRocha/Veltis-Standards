@@ -2,11 +2,11 @@
 
 ## Objetivo
 
-Este módulo tem como objetivo orientar decisões arquiteturais sustentáveis, rastreáveis e coerentes entre projetos. Ele orienta planejamento, execução, revisão e evolução de entregas relacionadas ao tema.
+Este módulo define os padrões oficiais de arquitetura de software para projetos da Veltis. Ele orienta estilos arquiteturais, camadas, domínio, modularidade, dependências, decisões arquiteturais e critérios de revisão.
 
 ## Escopo
 
-O escopo inclui modularidade, limites de contexto, integrações, dependências, ADRs e atributos de qualidade. O conteúdo deve ser aplicável a diferentes projetos da Veltis e manter independência de decisões específicas de produto.
+O escopo inclui arquitetura em camadas, Clean Architecture, Domain-Driven Design, injeção de dependência, Repository Pattern, Service Layer, CQRS, monólito modular, estrutura de projeto, nomenclatura, ADRs, templates, exemplos e estudos de caso.
 
 ## Estrutura
 
@@ -16,21 +16,21 @@ O escopo inclui modularidade, limites de contexto, integrações, dependências,
 - roadmap.md: evolução planejada por versão.
 - backlog.md: épicos e histórias priorizadas.
 - STATUS.md: situação atual do módulo.
-- docs/: guias e referências detalhadas.
-- templates/: modelos reutilizáveis.
-- examples/: exemplos genéricos e anonimizados.
-- case-studies/: estudos de caso aplicáveis ao domínio.
-- adr/: registros de decisão.
+- docs/: guias oficiais de arquitetura.
+- templates/: modelos básicos e avançados.
+- examples/: exemplos conceituais e aplicações em projetos reais.
+- case-studies/: estudos de caso de adoção.
+- adr/: decisões arquiteturais do módulo.
 - releases/: notas de publicação.
 - assets/: recursos auxiliares.
 
 ## Conteúdo
 
-O módulo deve conter orientações claras, exemplos reutilizáveis, critérios verificáveis e materiais que ajudem equipes a aplicar o padrão de forma consistente. Conteúdos específicos de produtos, dados sensíveis ou decisões sem valor recorrente não devem ser incluídos.
+A versão 1.0 inclui guias práticos, templates, exemplos conceituais, estudos de caso, ADRs e release notes. O conteúdo foi escrito para orientar decisões arquiteturais em projetos de diferentes portes, sem impor complexidade desnecessária.
 
 ## Status
 
-O estado atual do módulo está registrado em STATUS.md, incluindo versão, responsável, última atualização e próximas entregas.
+O módulo está na versão 1.0 inicial, com a fundação completa publicada e pronto para adoção incremental por projetos da Veltis.
 
 ## Roadmap
 

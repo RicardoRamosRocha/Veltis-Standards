@@ -15,6 +15,7 @@ Entregas concluídas:
 - Guia de contribuição e política inicial de uso.
 - Módulo Documentation v1.0 inicial completo.
 - Módulo Git v1.0 inicial completo.
+- Módulo Architecture v1.0 inicial completo.
 
 ## Fase 2 - Templates e checklists
 
@@ -33,7 +34,6 @@ Objetivo: detalhar guias práticos para áreas de maior impacto técnico.
 
 Entregas previstas:
 
-- Guias de arquitetura e modularidade.
 - Baseline de segurança e privacidade.
 - Padrões de APIs ASP.NET Core.
 - Estratégia de banco de dados e migrações.

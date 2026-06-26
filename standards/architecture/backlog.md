@@ -2,21 +2,21 @@
 
 ## Épicos
 
-### EP-01 - Fundação do padrão
+### EP-01 - Fundação do padrão arquitetural
 
 - Prioridade: Alta
-- Status: Em andamento
+- Status: Concluído
 - Versão: 1.0
 
-Consolidar documentos principais, critérios mínimos e estrutura de governança do módulo.
+Consolidar guias, templates, exemplos, estudos de caso, ADRs, release notes e arquivos principais do módulo Architecture.
 
-### EP-02 - Aplicação prática
+### EP-02 - Aplicação prática e revisão
 
 - Prioridade: Alta
 - Status: Planejado
 - Versão: 1.1
 
-Criar templates, exemplos e checklists que permitam aplicação consistente do padrão em projetos.
+Criar checklists, exemplos de diagramas e matriz de escolha arquitetural.
 
 ### EP-03 - Governança e maturidade
 
@@ -24,53 +24,61 @@ Criar templates, exemplos e checklists que permitam aplicação consistente do p
 - Status: Planejado
 - Versão: 1.2
 
-Registrar decisões, estudos de caso e critérios de exceção para fortalecer a evolução do módulo.
+Definir critérios de maturidade, exceções e estudos de caso adicionais.
 
-### EP-04 - Operação contínua
+### EP-04 - Automação e aderência
 
 - Prioridade: Média
 - Status: Planejado
 - Versão: 2.0
 
-Definir indicadores, revisão periódica e integração com fluxos de entrega quando aplicável.
+Avaliar indicadores, automações e integração com fluxos de revisão.
 
 ## Histórias
 
-### US-01 - Guia principal do módulo
+### US-01 - Consultar guia oficial de arquitetura
 
-Como pessoa de engenharia, quero consultar um guia principal de Architecture, para aplicar o padrão com clareza em projetos da Veltis.
+Como pessoa de engenharia, quero consultar o guia oficial de arquitetura, para tomar decisões coerentes em projetos da Veltis.
 
 - Prioridade: Alta
-- Status: Planejado
+- Status: Concluído
 - Versão: 1.0
 
-### US-02 - Template reutilizável
+### US-02 - Documentar decisões arquiteturais
 
-Como pessoa responsável por uma entrega, quero usar um template do módulo, para reduzir variação e acelerar documentação ou revisão.
+Como liderança técnica, quero registrar ADRs, para preservar contexto e consequências de decisões relevantes.
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão: 1.0
+
+### US-03 - Usar templates arquiteturais
+
+Como pessoa responsável por iniciar um projeto, quero usar templates de arquitetura, para documentar estrutura, camadas e riscos sem começar do zero.
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão: 1.0
+
+### US-04 - Revisar arquitetura com checklist
+
+Como pessoa revisora, quero uma checklist arquitetural, para validar dependências, camadas, segurança e testabilidade.
 
 - Prioridade: Alta
 - Status: Planejado
 - Versão: 1.1
 
-### US-03 - Checklist de revisão
+### US-05 - Medir maturidade arquitetural
 
-Como pessoa revisora, quero validar entregas com uma checklist objetiva, para identificar lacunas antes da aprovação.
-
-- Prioridade: Alta
-- Status: Planejado
-- Versão: 1.1
-
-### US-04 - Critérios de exceção
-
-Como liderança técnica, quero registrar exceções justificadas ao padrão, para preservar rastreabilidade sem bloquear decisões contextualizadas.
+Como governança de engenharia, quero critérios de maturidade arquitetural, para priorizar melhorias em projetos.
 
 - Prioridade: Média
 - Status: Planejado
 - Versão: 1.2
 
-### US-05 - Indicadores de maturidade
+### US-06 - Integrar arquitetura ao fluxo de entrega
 
-Como pessoa mantenedora, quero acompanhar aderência e evolução do módulo, para priorizar melhorias com base em uso real.
+Como liderança técnica, quero critérios arquiteturais integrados ao fluxo de revisão, para reduzir riscos antes de releases.
 
 - Prioridade: Média
 - Status: Planejado

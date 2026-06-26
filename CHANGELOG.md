@@ -2,6 +2,19 @@
 
 Todas as mudanças relevantes do Veltis Standards devem ser registradas neste arquivo.
 
+## [0.4.0] - 2026-06-26
+
+### Adicionado
+
+- Versão 1.0 inicial completa do módulo Architecture em `standards/architecture`.
+- Guias oficiais para arquitetura geral, arquitetura em camadas, Clean Architecture, DDD, DI, Repository Pattern, Service Layer, CQRS, monólito modular, estrutura de projeto, nomenclatura e decisões arquiteturais.
+- Templates básicos e avançados para documentação arquitetural, ADRs, camadas, estruturas de projeto, SaaS, arquitetura corporativa e revisão arquitetural.
+- Exemplos básicos, exemplos aplicados a projetos reais, estudos de caso, ADRs e release notes do módulo Architecture.
+
+### Alterado
+
+- Roadmap e backlog globais atualizados para refletir a conclusão do módulo Architecture v1.
+- Auditoria global atualizada para registrar Architecture como módulo crítico concluído em versão 1.0 inicial.
 ## [0.3.0] - 2026-06-26
 
 ### Adicionado

@@ -10,11 +10,11 @@ Architecture
 
 ## Status
 
-Em estruturação
+Versão inicial completa
 
 ## Objetivo
 
-orientar decisões arquiteturais sustentáveis, rastreáveis e coerentes entre projetos.
+Definir os padrões oficiais de arquitetura de software para todos os projetos da Veltis, cobrindo estilos arquiteturais, camadas, domínio, modularidade, dependências, decisões, templates, exemplos e estudos de caso.
 
 ## Responsável
 
@@ -26,6 +26,7 @@ Governança de Engenharia da Veltis
 
 ## Próximas entregas
 
-- template de ADR, guia de modularidade e checklist de revisão arquitetural.
-- Revisar exemplos e templates específicos do módulo.
-- Definir critérios de aceite para a próxima versão planejada.
+- Criar checklists de revisão arquitetural para a versão 1.1.
+- Adicionar exemplos de diagramas arquiteturais.
+- Definir matriz de escolha arquitetural.
+- Avaliar indicadores de maturidade arquitetural para versões futuras.

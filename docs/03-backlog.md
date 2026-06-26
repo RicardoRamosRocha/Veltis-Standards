@@ -22,7 +22,15 @@ Criar a versão 1.0 inicial completa do módulo Git com guias, templates, exempl
 
 ## Alta prioridade
 
-### BKL-003 - Checklists de revisão
+### BKL-003 - Fundação do módulo Architecture
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão: 0.4.0
+
+Criar a versão 1.0 inicial completa do módulo Architecture com guias, templates, exemplos, estudos de caso, ADRs e release notes.
+
+### BKL-004 - Checklists de revisão
 
 - Prioridade: Alta
 - Status: Planejado
@@ -30,21 +38,13 @@ Criar a versão 1.0 inicial completa do módulo Git com guias, templates, exempl
 
 Definir checklists objetivos para pull request, arquitetura, segurança, banco de dados, UI, testes e operação.
 
-### BKL-004 - Guia de ADR global
+### BKL-005 - Guia de ADR global
 
 - Prioridade: Alta
 - Status: Planejado
 - Versão: 0.4.0
 
 Detalhar quando criar ADR, como nomear, como revisar e como relacionar uma decisão a requisitos e releases.
-
-### BKL-005 - Política de versionamento dos padrões
-
-- Prioridade: Alta
-- Status: Planejado
-- Versão: 0.4.0
-
-Definir como versões globais e versões por módulo devem ser publicadas, depreciadas e comunicadas.
 
 ## Média prioridade
 
