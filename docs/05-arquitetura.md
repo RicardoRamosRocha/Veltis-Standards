@@ -1,40 +1,40 @@
 # Arquitetura do Framework
 
-## Visao geral
+## VISÃO geral
 
-O Veltis Standards e organizado como um framework documental modular. A arquitetura do repositorio separa documentos globais, modulos de padrao, templates, exemplos e estudos de caso para permitir evolucao independente e consulta rapida.
+O Veltis Standards e organizado como um framework documental modular. A arquitetura do REPOSITÓRIO separa documentos globais, MÓDULOS de PADRÃO, templates, exemplos e estudos de caso para permitir EVOLUÇÃO independente e consulta rapida.
 
-A unidade principal de organizacao e o modulo em `standards/`. Cada modulo representa um dominio de padronizacao e possui arquivos de governanca, evolucao e conteudo proprio.
+A unidade principal de ORGANIZAÇÃO e o MÓDULO em `standards/`. Cada MÓDULO representa um DOMÍNIO de padronizacao e possui arquivos de governanca, EVOLUÇÃO e CONTEÚDO PRÓPRIO.
 
 ## Camadas documentais
 
-### Documentacao central
+### DOCUMENTAÇÃO central
 
-A pasta `docs/` descreve o framework como produto interno: visao, requisitos, backlog, roadmap, arquitetura e organizacao. Ela responde por contexto, governanca geral e criterios que atravessam todos os modulos.
+A pasta `docs/` descreve o framework como produto interno: VISÃO, requisitos, backlog, roadmap, arquitetura e ORGANIZAÇÃO. Ela responde por contexto, governanca geral e CRITÉRIOS que atravessam todos os MÓDULOS.
 
-### Modulos de padrao
+### MÓDULOS de PADRÃO
 
-A pasta `standards/` contem os dominios reutilizaveis. Cada modulo deve ser tratavel como uma unidade evolutiva, com backlog, roadmap, changelog e manifesto proprio.
+A pasta `standards/` contem os DOMÍNIOS reutilizaveis. Cada MÓDULO deve ser tratavel como uma unidade evolutiva, com backlog, roadmap, changelog e manifesto PRÓPRIO.
 
 ### Artefatos reutilizaveis
 
-As pastas `templates/`, `examples/`, `case-studies/` e `assets/` existem em nivel global e dentro dos modulos. O nivel global deve conter materiais aplicaveis a multiplos modulos; o nivel do modulo deve conter materiais especificos do dominio.
+As pastas `templates/`, `examples/`, `case-studies/` e `assets/` existem em NÍVEL global e dentro dos MÓDULOS. O NÍVEL global deve conter materiais APLICÁVEIS a multiplos MÓDULOS; o NÍVEL do MÓDULO deve conter materiais especificos do DOMÍNIO.
 
-## Contrato de modulo
+## Contrato de MÓDULO
 
-Todo modulo deve preservar a estrutura definida em `standards/<modulo>/`, com arquivos principais e pastas para documentos, templates, exemplos, estudos de caso, ADRs, releases e assets.
+Todo MÓDULO deve preservar a estrutura definida em `standards/<modulo>/`, com arquivos principais e pastas para documentos, templates, exemplos, estudos de caso, ADRs, releases e assets.
 
-## Relacionamento entre modulos
+## Relacionamento entre MÓDULOS
 
-Modulos podem se referenciar, mas nao devem duplicar responsabilidades. Quando um tema depender de outro, o documento deve apontar para o modulo responsavel e explicar o relacionamento.
+MÓDULOS podem se referenciar, mas NÃO devem duplicar responsabilidades. Quando um tema depender de outro, o documento deve apontar para o MÓDULO RESPONSÁVEL e explicar o relacionamento.
 
 Exemplos:
 
-- `aspnet-core` depende de criterios de `security`, `testing`, `architecture` e `devops`.
+- `aspnet-core` depende de CRITÉRIOS de `security`, `testing`, `architecture` e `devops`.
 - `database` depende de `security`, `architecture` e `devops`.
-- `ui` e `flutter` compartilham principios de experiencia, acessibilidade e consistencia visual.
-- `ai` depende de seguranca, privacidade, avaliacao e rastreabilidade.
+- `ui` e `flutter` compartilham principios de EXPERIÊNCIA, acessibilidade e consistencia visual.
+- `ai` depende de SEGURANÇA, privacidade, AVALIAÇÃO e rastreabilidade.
 
 ## Governanca arquitetural
 
-Mudancas que alteram estrutura, contrato de modulo, obrigatoriedade de artefatos ou criterios globais devem ser tratadas como mudancas arquiteturais do framework. Elas exigem justificativa, atualizacao do changelog e, quando apropriado, registro de decisao.
+MUDANÇAS que alteram estrutura, contrato de MÓDULO, obrigatoriedade de artefatos ou CRITÉRIOS globais devem ser tratadas como MUDANÇAS arquiteturais do framework. Elas exigem justificativa, ATUALIZAÇÃO do changelog e, quando apropriado, registro de DECISÃO.

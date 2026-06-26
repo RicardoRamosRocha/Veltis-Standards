@@ -1,8 +1,8 @@
-# Organizacao
+# ORGANIZAÇÃO
 
 ## Estrutura de pastas
 
-O repositorio usa uma organizacao simples e previsivel:
+O REPOSITÓRIO usa uma ORGANIZAÇÃO simples e previsivel:
 
 ```text
 assets/
@@ -13,45 +13,45 @@ standards/
 templates/
 ```
 
-A pasta `docs/` contem a documentacao central do framework. A pasta `standards/` contem os modulos tematicos. As demais pastas em nivel global armazenam recursos compartilhados.
+A pasta `docs/` contem a DOCUMENTAÇÃO central do framework. A pasta `standards/` contem os MÓDULOS tematicos. As demais pastas em NÍVEL global armazenam recursos compartilhados.
 
 ## Nomenclatura
 
 - Use nomes de pastas em minusculo e com hifen quando houver mais de uma palavra.
 - Use nomes de arquivos descritivos em Markdown.
-- Preserve os arquivos obrigatorios dos modulos com os nomes definidos: `README.md`, `MANIFEST.md`, `CHANGELOG.md`, `roadmap.md` e `backlog.md`.
-- Evite abreviacoes que nao sejam amplamente reconhecidas.
+- Preserve os arquivos obrigatorios dos MÓDULOS com os nomes definidos: `README.md`, `MANIFEST.md`, `CHANGELOG.md`, `roadmap.md` e `backlog.md`.
+- Evite abreviacoes que NÃO sejam amplamente reconhecidas.
 
 ## Responsabilidades dos arquivos principais
 
 ### README.md
 
-Apresenta o proposito, escopo, forma de uso e principios do repositorio ou modulo.
+Apresenta o PROPÓSITO, escopo, forma de uso e principios do REPOSITÓRIO ou MÓDULO.
 
 ### MANIFEST.md
 
-Define contrato, responsabilidade, artefatos esperados, criterios de qualidade e governanca.
+Define contrato, responsabilidade, artefatos esperados, CRITÉRIOS de qualidade e governanca.
 
 ### CHANGELOG.md
 
-Registra mudancas relevantes, com foco em rastreabilidade e impacto.
+Registra MUDANÇAS relevantes, com foco em rastreabilidade e impacto.
 
 ### roadmap.md
 
-Organiza a evolucao planejada em fases ou marcos.
+Organiza a EVOLUÇÃO planejada em fases ou marcos.
 
 ### backlog.md
 
 Mantem itens pendentes, melhorias e necessidades identificadas para refinamento futuro.
 
-## Regras de manutencao
+## Regras de MANUTENÇÃO
 
-- Atualize documentos proximos ao contexto da mudanca.
-- Quando uma mudanca afetar varios modulos, registre tambem o impacto no nivel global.
-- Nao duplique conteudo entre modulos; use referencias cruzadas quando necessario.
-- Mantenha exemplos genericos e sem dados sensiveis.
+- Atualize documentos PRÓXIMOS ao contexto da MUDANÇA.
+- Quando uma MUDANÇA afetar varios MÓDULOS, registre TAMBÉM o impacto no NÍVEL global.
+- NÃO duplique CONTEÚDO entre MÓDULOS; use referencias cruzadas quando NECESSÁRIO.
+- Mantenha exemplos GENÉRICOS e sem dados sensiveis.
 - Revise periodicamente itens de backlog para remover obsolescencia.
 
-## Separacao de conteudo
+## Separacao de CONTEÚDO
 
-O Veltis Standards deve conter padroes reutilizaveis. Documentos de produtos, decisoes especificas de clientes ou detalhes de implementacao proprietaria devem permanecer em seus respectivos repositorios.
+O Veltis Standards deve conter PADRÕES reutilizaveis. Documentos de produtos, DECISÕES ESPECÍFICAS de clientes ou detalhes de IMPLEMENTAÇÃO proprietaria devem permanecer em seus respectivos REPOSITÓRIOS.
