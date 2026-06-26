@@ -6,7 +6,7 @@ Estabelecer um padrão reutilizável para prompts, modelos, avaliação, privaci
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema AI com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar AI com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre governança de IA, avaliação de resultados, proteção de dados, rastreabilidade e desenho responsável.
+governança de IA, avaliação de resultados, proteção de dados, rastreabilidade e desenho responsável.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre dados sensíveis, prompts com informações confidenciais, chaves de provedores ou detalhes de produtos específicos.
+Não cobre dados sensíveis, prompts confidenciais, chaves de provedores ou detalhes de produtos específicos.
 
 ## Filosofia
 

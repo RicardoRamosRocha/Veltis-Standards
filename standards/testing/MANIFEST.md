@@ -6,7 +6,7 @@ Estabelecer um padrão reutilizável para testes unitários, integração, contr
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Testing com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar Testing com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre planos de teste, critérios de aceite, pirâmide de testes, confiabilidade e execução em pipelines.
+planos de teste, critérios de aceite, pirâmide de testes, confiabilidade e execução em pipelines.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre massa real de dados, scripts específicos de produto ou metas de cobertura sem contexto.
+Não cobre massa real de dados, scripts específicos de produto ou metas de cobertura sem contexto.
 
 ## Filosofia
 

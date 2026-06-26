@@ -6,7 +6,7 @@ Estabelecer um padrão reutilizável para autenticação, autorização, dados s
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Security com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar Security com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre baseline de segurança, revisão de riscos, proteção de dados, tratamento de vulnerabilidades e boas práticas operacionais.
+baseline de segurança, revisão de riscos, proteção de dados, tratamento de vulnerabilidades e práticas operacionais.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre segredos, relatórios sensíveis de incidentes, detalhes exploráveis ou configurações produtivas restritas.
+Não cobre segredos, relatórios sensíveis de incidentes, detalhes exploráveis ou configurações produtivas restritas.
 
 ## Filosofia
 

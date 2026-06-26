@@ -6,7 +6,7 @@ Estabelecer um padrão reutilizável para modelagem, nomenclatura, migrações, 
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Database com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar Database com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre convenções de schema, critérios de migração, revisão de consultas, proteção de dados e operação.
+convenções de schema, critérios de migração, revisão de consultas, proteção de dados e operação.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre dados reais, credenciais, dumps, scripts sensíveis ou topologias produtivas restritas.
+Não cobre dados reais, credenciais, dumps, scripts sensíveis ou topologias produtivas restritas.
 
 ## Filosofia
 

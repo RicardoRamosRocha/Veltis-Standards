@@ -1,37 +1,79 @@
 # Roadmap - Git
 
-## Versão 1.0
+## Objetivo
 
-Objetivo: consolidar a fundação do módulo.
+Evoluir o módulo Git de forma incremental, preservando consistência com o Veltis Standards e criando materiais aplicáveis a projetos reais.
 
-- Finalizar manifesto, README, status e backlog padronizados.
-- Criar o guia principal do tema.
-- Definir critérios mínimos de aplicação e revisão.
+## Versões
+
+### Versão 1.0
+
+#### Entregas
+
+- Consolidar README, manifesto, status, roadmap e backlog padronizados.
+- Definir critérios mínimos para branches, commits, pull requests, tags, releases e revisão de mudanças.
 - Mapear dependências com outros módulos do Veltis Standards.
 
-## Versão 1.1
+#### Critérios de conclusão
 
-Objetivo: tornar o padrão mais aplicável no dia a dia.
+- Arquivos principais revisados e coerentes entre si.
+- Escopo, limites e responsabilidades explícitos.
+- Próximas entregas registradas no status e no backlog.
 
-- Criar templates prioritários.
-- Adicionar exemplos genéricos e anonimizados.
-- Publicar checklist inicial de revisão.
-- Documentar exceções comuns e critérios de aceite.
+#### Próximos passos
 
-## Versão 1.2
+- Priorizar materiais iniciais em docs/, 	emplates/ e examples/.
 
-Objetivo: fortalecer governança e consistência.
+### Versão 1.1
 
-- Criar estudos de caso aplicáveis.
-- Registrar decisões relevantes em ADRs.
-- Refinar critérios com base no uso em projetos.
-- Atualizar changelog e notas de release do módulo.
+#### Entregas
 
-## Versão 2.0
+- Desenvolver templates de pull request e exemplos de commits.
+- Publicar exemplos genéricos e anonimizados.
+- Criar checklist inicial de revisão do módulo.
 
-Objetivo: estabelecer maturidade operacional do padrão.
+#### Critérios de conclusão
 
-- Integrar o módulo a fluxos de revisão e entrega quando aplicável.
-- Definir indicadores de aderência e qualidade.
-- Remover orientações obsoletas ou redundantes.
-- Consolidar processo de revisão periódica.
+- Templates e exemplos aplicáveis sem dependência de produto específico.
+- Checklist revisável por pessoas de engenharia.
+- Changelog atualizado com mudanças relevantes.
+
+#### Próximos passos
+
+- Coletar feedback de uso em projetos e registrar ajustes no backlog.
+
+### Versão 1.2
+
+#### Entregas
+
+- Desenvolver governança de releases e exceções de fluxo.
+- Registrar decisões relevantes em ADRs quando necessário.
+- Refinar critérios de exceção e revisão.
+
+#### Critérios de conclusão
+
+- Critérios de governança claros e revisáveis.
+- Estudos ou exemplos suficientes para orientar adoção.
+- Pendências relevantes priorizadas para a versão 2.0.
+
+#### Próximos passos
+
+- Preparar indicadores de maturidade e oportunidades de automação.
+
+### Versão 2.0
+
+#### Entregas
+
+- Desenvolver integração com automações de qualidade e métricas de fluxo.
+- Integrar o padrão a fluxos de revisão e entrega quando aplicável.
+- Consolidar processo de revisão periódica do módulo.
+
+#### Critérios de conclusão
+
+- Indicadores de aderência definidos.
+- Processo de manutenção documentado.
+- Conteúdo obsoleto removido ou marcado como substituído.
+
+#### Próximos passos
+
+- Planejar evolução pós-2.0 com base em métricas, auditorias e feedback das equipes.

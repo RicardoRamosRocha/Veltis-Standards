@@ -2,11 +2,11 @@
 
 ## Missão
 
-Estabelecer um padrão reutilizável para branches, commits, pull requests, tags, releases, revisão de mudanças e histórico versionado. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
+Estabelecer um padrão reutilizável para branches, commits, pull requests, tags, releases e revisão de mudanças. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Git com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar Git com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre convenções de branch, mensagens de commit, critérios de PR, revisão e versionamento.
+convenções de branch, mensagens de commit, critérios de pull request, revisão e versionamento.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre configurações específicas de repositórios privados ou automações que pertençam a produtos isolados.
+Não cobre configurações privadas de repositórios, credenciais de acesso ou automações específicas de produto.
 
 ## Filosofia
 

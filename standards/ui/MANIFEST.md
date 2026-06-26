@@ -6,7 +6,7 @@ Estabelecer um padrão reutilizável para design de telas, componentes, responsi
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema UI com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar UI com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre princípios de UI, estados de componentes, critérios de usabilidade, acessibilidade e especificação visual.
+princípios de UI, estados de componentes, critérios de usabilidade, acessibilidade e especificação visual.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre campanhas visuais pontuais, identidade de produto não reutilizável ou arquivos proprietários de design.
+Não cobre campanhas visuais pontuais, identidade de produto isolada ou arquivos proprietários de design.
 
 ## Filosofia
 

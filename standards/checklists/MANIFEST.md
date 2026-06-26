@@ -2,11 +2,11 @@
 
 ## Missão
 
-Estabelecer um padrão reutilizável para checklists de requisitos, arquitetura, PR, segurança, testes, release, operação e qualidade documental. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
+Estabelecer um padrão reutilizável para checklists de requisitos, arquitetura, pull request, segurança, testes, release, operação e qualidade documental. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Checklists com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar Checklists com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre estrutura de checklists, critérios de uso, priorização, manutenção e evidências de revisão.
+estrutura de checklists, critérios de uso, priorização, manutenção e evidências de revisão.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre listas específicas de um único produto sem utilidade recorrente ou controles que substituam julgamento técnico.
+Não cobre listas específicas de um único produto sem utilidade recorrente ou controles que substituam julgamento técnico.
 
 ## Filosofia
 

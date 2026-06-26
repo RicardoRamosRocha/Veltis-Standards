@@ -6,7 +6,7 @@ Estabelecer um padrão reutilizável para CI/CD, ambientes, releases, rollback, 
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema DevOps com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar DevOps com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre templates de pipeline, critérios de release, observabilidade, gestão de configuração e prontidão operacional.
+templates de pipeline, critérios de release, observabilidade, gestão de configuração e prontidão operacional.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre credenciais, detalhes sensíveis de infraestrutura, scripts produtivos restritos ou runbooks confidenciais.
+Não cobre credenciais, detalhes sensíveis de infraestrutura, scripts produtivos restritos ou runbooks confidenciais.
 
 ## Filosofia
 

@@ -6,7 +6,7 @@
 
 - Prioridade: Alta
 - Status: Concluído
-- Versão prevista: 1.0
+- Versão: 1.0
 
 Consolidar guias, templates, exemplos, ADR, release notes e arquivos principais do módulo Documentation.
 
@@ -14,7 +14,7 @@ Consolidar guias, templates, exemplos, ADR, release notes e arquivos principais 
 
 - Prioridade: Alta
 - Status: Planejado
-- Versão prevista: 1.1
+- Versão: 1.1
 
 Facilitar a aplicação do padrão em projetos novos e existentes por meio de checklists, exemplos intermediários e guia de migração.
 
@@ -22,7 +22,7 @@ Facilitar a aplicação do padrão em projetos novos e existentes por meio de ch
 
 - Prioridade: Média
 - Status: Planejado
-- Versão prevista: 1.2
+- Versão: 1.2
 
 Definir auditoria, depreciação, arquivamento e critérios de publicação documental.
 
@@ -30,7 +30,7 @@ Definir auditoria, depreciação, arquivamento e critérios de publicação docu
 
 - Prioridade: Média
 - Status: Planejado
-- Versão prevista: 2.0
+- Versão: 2.0
 
 Avaliar automações e indicadores para garantir aderência contínua ao padrão.
 
@@ -42,7 +42,7 @@ Como pessoa de engenharia ou produto, quero consultar um guia oficial de documen
 
 - Prioridade: Alta
 - Status: Concluído
-- Versão prevista: 1.0
+- Versão: 1.0
 
 ### US-02 - Usar templates básicos
 
@@ -50,7 +50,7 @@ Como pessoa responsável por iniciar um projeto, quero copiar templates básicos
 
 - Prioridade: Alta
 - Status: Concluído
-- Versão prevista: 1.0
+- Versão: 1.0
 
 ### US-03 - Usar templates avançados
 
@@ -58,7 +58,7 @@ Como liderança técnica, quero templates avançados, para documentar projetos p
 
 - Prioridade: Alta
 - Status: Concluído
-- Versão prevista: 1.0
+- Versão: 1.0
 
 ### US-04 - Revisar documentação com checklist
 
@@ -66,7 +66,7 @@ Como pessoa revisora, quero uma checklist documental, para validar clareza, segu
 
 - Prioridade: Alta
 - Status: Planejado
-- Versão prevista: 1.1
+- Versão: 1.1
 
 ### US-05 - Migrar documentação existente
 
@@ -74,7 +74,7 @@ Como pessoa mantenedora, quero um guia de migração, para adaptar projetos exis
 
 - Prioridade: Média
 - Status: Planejado
-- Versão prevista: 1.1
+- Versão: 1.1
 
 ### US-06 - Medir aderência documental
 
@@ -82,4 +82,4 @@ Como governança de engenharia, quero indicadores de aderência, para acompanhar
 
 - Prioridade: Média
 - Status: Planejado
-- Versão prevista: 2.0
+- Versão: 2.0

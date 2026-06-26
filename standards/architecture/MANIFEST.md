@@ -2,11 +2,11 @@
 
 ## Missão
 
-Estabelecer um padrão reutilizável para modularidade, limites de contexto, integrações, dependências, ADRs, atributos de qualidade e evolução arquitetural. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
+Estabelecer um padrão reutilizável para modularidade, limites de contexto, integrações, dependências, ADRs e atributos de qualidade. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Architecture com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar Architecture com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre critérios de desenho, registro de decisões, trade-offs, diagramas e governança arquitetural.
+critérios de desenho, registro de decisões, diagramas, trade-offs e governança arquitetural.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre desenhos proprietários completos de produtos ou decisões sem contexto reutilizável.
+Não cobre desenhos proprietários completos de produtos ou decisões específicas sem valor reutilizável.
 
 ## Filosofia
 

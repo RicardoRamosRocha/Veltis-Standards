@@ -2,11 +2,11 @@
 
 ## Missão
 
-Estabelecer um padrão reutilizável para APIs, configuração, autenticação, autorização, validação, tratamento de erros, observabilidade e organização de projetos. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
+Estabelecer um padrão reutilizável para APIs, configuração, autenticação, autorização, validação, erros, observabilidade e organização de projetos. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema ASP.NET Core com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar ASP.NET Core com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre contratos HTTP, middlewares, DI, logging, configuração por ambiente e práticas de manutenção.
+contratos HTTP, middlewares, injeção de dependência, logging, configuração por ambiente e práticas de manutenção.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre código-fonte de aplicações, detalhes de infraestrutura produtiva ou regras específicas de domínio.
+Não cobre código-fonte de aplicações, regras específicas de domínio ou detalhes produtivos restritos.
 
 ## Filosofia
 

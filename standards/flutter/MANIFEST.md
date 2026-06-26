@@ -6,7 +6,7 @@ Estabelecer um padrão reutilizável para estrutura de projeto, navegação, est
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Flutter com qualidade, rastreabilidade e responsabilidade profissional.
+Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar Flutter com qualidade, rastreabilidade e responsabilidade profissional.
 
 ## Responsabilidades
 
@@ -18,11 +18,11 @@ Ser uma referência confiável e evolutiva para equipes da Veltis que precisam a
 
 ## O que cobre
 
-Este módulo cobre convenções de organização, componentes, build, qualidade, integração e experiência mobile.
+convenções de organização, componentes, build, qualidade, integração e experiência mobile.
 
-## O que não cobre
+## Limites
 
-Este módulo não cobre código-fonte de aplicativos, chaves de publicação, assets proprietários ou regras específicas de produto.
+Não cobre código-fonte de aplicativos, chaves de publicação, assets proprietários ou regras específicas de produto.
 
 ## Filosofia
 

@@ -2,45 +2,40 @@
 
 ## Objetivo
 
-Este módulo define o padrão oficial de documentação para projetos da Veltis. Seu objetivo é orientar como documentos devem ser estruturados, escritos, revisados, versionados e mantidos para apoiar clareza, rastreabilidade, segurança e evolução profissional de software.
+Este módulo tem como objetivo manter o padrão oficial de documentação para projetos da Veltis, com guias, templates, exemplos e governança documental. Ele orienta planejamento, execução, revisão e evolução de entregas relacionadas ao tema.
 
 ## Escopo
 
-O escopo inclui documentação de produto, requisitos, backlog, roadmap, arquitetura, APIs, ADRs, changelog, release notes, diagramas, nomenclatura, estilo Markdown, ciclo de vida documental e processo de revisão.
-
-O módulo deve ser usado por novos projetos e por projetos existentes que precisem evoluir sua documentação de forma incremental.
+O escopo inclui documentação de produto, requisitos, arquitetura, APIs, ADRs, changelog, release notes, diagramas, nomenclatura e revisão. O conteúdo deve ser aplicável a diferentes projetos da Veltis e manter independência de decisões específicas de produto.
 
 ## Estrutura
 
-- `README.md`: visão geral do módulo.
-- `MANIFEST.md`: missão, visão, responsabilidades e filosofia do padrão.
-- `CHANGELOG.md`: histórico de mudanças do módulo.
-- `roadmap.md`: evolução planejada por versão.
-- `backlog.md`: épicos e histórias de evolução.
-- `STATUS.md`: versão, estado atual e próximas entregas.
-- `docs/`: guias oficiais do padrão de documentação.
-- `templates/basic/`: templates básicos prontos para copiar e adaptar.
-- `templates/advanced/`: templates completos para projetos profissionais.
-- `examples/basic/`: exemplos simples de aplicação.
-- `case-studies/`: estudos de caso de aplicação do padrão.
-- `adr/`: decisões do módulo.
-- `releases/`: notas de release.
-- `assets/`: recursos auxiliares.
+- README.md: visão geral do módulo.
+- MANIFEST.md: missão, visão, responsabilidades, filosofia, limites e evolução.
+- CHANGELOG.md: histórico de mudanças relevantes.
+- roadmap.md: evolução planejada por versão.
+- backlog.md: épicos e histórias priorizadas.
+- STATUS.md: situação atual do módulo.
+- docs/: guias e referências detalhadas.
+- templates/: modelos reutilizáveis.
+- examples/: exemplos genéricos e anonimizados.
+- case-studies/: estudos de caso aplicáveis ao domínio.
+- adr/: registros de decisão.
+- releases/: notas de publicação.
+- assets/: recursos auxiliares.
 
 ## Conteúdo
 
-A versão 1.0 inclui guias de documentação, filosofia, princípios, ciclo de vida, estilo Markdown, nomenclatura, versionamento, revisão e diagramas. Também inclui templates básicos e avançados, exemplos iniciais, um estudo de caso para aplicação ao Veltis AI Platform, ADR de adoção do padrão único e release notes da v1.0.
-
-O conteúdo foi escrito para ser reutilizável em projetos de diferentes portes, evitando dependência de um produto específico e sem incluir dados sensíveis, código-fonte ou detalhes operacionais restritos.
-
-## Roadmap
-
-O roadmap atual define a versão 1.0 como fundação completa do padrão documental. As próximas versões devem expandir exemplos, checklists, automações de validação e governança de adoção.
-
-## Backlog
-
-O backlog organiza a evolução por épicos e histórias, com prioridade, status e versão prevista. Demandas futuras devem ser registradas no backlog antes de se tornarem mudanças estruturais.
+O módulo deve conter orientações claras, exemplos reutilizáveis, critérios verificáveis e materiais que ajudem equipes a aplicar o padrão de forma consistente. Conteúdos específicos de produtos, dados sensíveis ou decisões sem valor recorrente não devem ser incluídos.
 
 ## Status
 
-O módulo está na versão 1.0 inicial, com a fundação completa publicada e pronto para adoção incremental por projetos da Veltis.
+O estado atual do módulo está registrado em STATUS.md, incluindo versão, responsável, última atualização e próximas entregas.
+
+## Roadmap
+
+A evolução do módulo está descrita em roadmap.md, organizada por versões, entregas, critérios de conclusão e próximos passos.
+
+## Backlog
+
+O backlog do módulo está em backlog.md e organiza o trabalho por épicos e histórias, com prioridade, status e versão.
