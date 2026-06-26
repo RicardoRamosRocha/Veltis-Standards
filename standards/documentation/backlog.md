@@ -2,75 +2,83 @@
 
 ## Épicos
 
-### EP-01 - Fundação do padrão
+### EP-01 - Fundação do padrão documental
 
 - Prioridade: Alta
-- Status: Em andamento
+- Status: Concluído
 - Versão prevista: 1.0
 
-Consolidar documentos principais, critérios mínimos e estrutura de governança do módulo.
+Consolidar guias, templates, exemplos, ADR, release notes e arquivos principais do módulo Documentation.
 
-### EP-02 - Aplicação prática
+### EP-02 - Adoção prática em projetos
 
 - Prioridade: Alta
 - Status: Planejado
 - Versão prevista: 1.1
 
-Criar templates, exemplos e checklists que permitam aplicação consistente do padrão em projetos.
+Facilitar a aplicação do padrão em projetos novos e existentes por meio de checklists, exemplos intermediários e guia de migração.
 
-### EP-03 - Governança e maturidade
+### EP-03 - Governança documental
 
 - Prioridade: Média
 - Status: Planejado
 - Versão prevista: 1.2
 
-Registrar decisões, estudos de caso e critérios de exceção para fortalecer a evolução do módulo.
+Definir auditoria, depreciação, arquivamento e critérios de publicação documental.
 
-### EP-04 - Operação contínua
+### EP-04 - Automação e maturidade
 
 - Prioridade: Média
 - Status: Planejado
 - Versão prevista: 2.0
 
-Definir indicadores, revisão periódica e integração com fluxos de entrega quando aplicável.
+Avaliar automações e indicadores para garantir aderência contínua ao padrão.
 
 ## Histórias
 
-### US-01 - Guia principal do módulo
+### US-01 - Consultar guia oficial de documentação
 
-Como pessoa de engenharia, quero consultar um guia principal de Documentation, para aplicar o padrão com clareza em projetos da Veltis.
+Como pessoa de engenharia ou produto, quero consultar um guia oficial de documentação, para estruturar documentos de projeto com clareza e consistência.
 
 - Prioridade: Alta
-- Status: Planejado
+- Status: Concluído
 - Versão prevista: 1.0
 
-### US-02 - Template reutilizável
+### US-02 - Usar templates básicos
 
-Como pessoa responsável por uma entrega, quero usar um template do módulo, para reduzir variação e acelerar documentação ou revisão.
+Como pessoa responsável por iniciar um projeto, quero copiar templates básicos, para criar documentação mínima sem começar do zero.
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão prevista: 1.0
+
+### US-03 - Usar templates avançados
+
+Como liderança técnica, quero templates avançados, para documentar projetos profissionais com múltiplas áreas, integrações e responsabilidades.
+
+- Prioridade: Alta
+- Status: Concluído
+- Versão prevista: 1.0
+
+### US-04 - Revisar documentação com checklist
+
+Como pessoa revisora, quero uma checklist documental, para validar clareza, segurança, completude e consistência antes da aprovação.
 
 - Prioridade: Alta
 - Status: Planejado
 - Versão prevista: 1.1
 
-### US-03 - Checklist de revisão
+### US-05 - Migrar documentação existente
 
-Como pessoa revisora, quero validar entregas com uma checklist objetiva, para identificar lacunas antes da aprovação.
-
-- Prioridade: Alta
-- Status: Planejado
-- Versão prevista: 1.1
-
-### US-04 - Critérios de exceção
-
-Como liderança técnica, quero registrar exceções justificadas ao padrão, para preservar rastreabilidade sem bloquear decisões contextualizadas.
+Como pessoa mantenedora, quero um guia de migração, para adaptar projetos existentes ao padrão sem interromper sua evolução.
 
 - Prioridade: Média
 - Status: Planejado
-- Versão prevista: 1.2
+- Versão prevista: 1.1
 
-### US-05 - Indicadores de maturidade
+### US-06 - Medir aderência documental
 
-Como pessoa mantenedora, quero acompanhar aderência e evolução do módulo, para priorizar melhorias com base em uso real.
+Como governança de engenharia, quero indicadores de aderência, para acompanhar maturidade documental dos projetos.
 
 - Prioridade: Média
 - Status: Planejado

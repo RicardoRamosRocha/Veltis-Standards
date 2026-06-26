@@ -10,11 +10,11 @@ Documentation
 
 ## Status
 
-Em estruturação
+Versão inicial completa
 
 ## Objetivo
 
-padronizar a criação, manutenção e revisão de documentação técnica, de produto e de operação.
+Definir o padrão oficial de documentação para todos os projetos da Veltis, cobrindo guias, templates, exemplos, revisão, versionamento, ADRs e release notes.
 
 ## Responsável
 
@@ -26,6 +26,7 @@ Governança de Engenharia da Veltis
 
 ## Próximas entregas
 
-- guia principal de documentação, template de ADR e checklist de qualidade documental.
-- Revisar exemplos e templates específicos do módulo.
-- Definir critérios de aceite para a próxima versão planejada.
+- Criar checklists de revisão documental para a versão 1.1.
+- Adicionar exemplos intermediários para requisitos, arquitetura, API e release notes.
+- Criar guia de migração para projetos existentes.
+- Avaliar automações de validação documental para versões futuras.

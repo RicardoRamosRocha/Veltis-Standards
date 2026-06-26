@@ -2,32 +2,35 @@
 
 ## Missão
 
-Estabelecer um padrão reutilizável para documentos de produto, requisitos, arquitetura, operação, onboarding, decisões técnicas e critérios editoriais. A missão deste módulo é reduzir ambiguidade, orientar decisões técnicas e apoiar revisões consistentes.
+Estabelecer um padrão único, profissional e reutilizável para documentação de projetos da Veltis, reduzindo ambiguidade, preservando contexto e apoiando decisões técnicas, funcionais e operacionais.
 
 ## Visão
 
-Ser uma referência confiável e evolutiva para equipes da Veltis que precisam aplicar o tema Documentation com qualidade, rastreabilidade e responsabilidade profissional.
+Ser a referência oficial para criação, revisão, versionamento e manutenção de documentação em projetos da Veltis, permitindo que equipes trabalhem com mais previsibilidade, rastreabilidade e qualidade.
 
 ## Responsabilidades
 
-- Definir critérios claros para uso do padrão.
-- Manter conteúdo em português, profissional e reutilizável.
-- Preservar coerência com os demais módulos do Veltis Standards.
-- Registrar evolução por roadmap, backlog, changelog e status.
-- Apoiar revisão técnica com critérios objetivos.
+- Definir princípios e critérios para documentação de projetos.
+- Fornecer guias práticos para escrita, revisão, nomenclatura, diagramas e versionamento.
+- Disponibilizar templates básicos e avançados prontos para adaptação.
+- Demonstrar aplicação por exemplos e estudos de caso.
+- Registrar decisões e releases do próprio módulo.
+- Manter conteúdo em português, profissional, seguro e reutilizável.
 
 ## O que cobre
 
-Este módulo cobre modelos documentais, critérios de clareza, taxonomia, ciclo de vida de documentos e práticas de revisão.
+Este módulo cobre documentação de produto, requisitos, backlog, roadmap, arquitetura, APIs, ADRs, changelog, release notes, diagramas, estilo Markdown, nomenclatura, ciclo de vida documental e processo de revisão.
 
 ## O que não cobre
 
-Este módulo não cobre código-fonte de produtos, documentação confidencial de clientes ou materiais específicos sem valor reutilizável.
+Este módulo não cobre código-fonte de produtos, documentação confidencial de clientes, segredos, dados reais, runbooks operacionais restritos ou conteúdo específico de um produto que não tenha valor reutilizável para outros projetos.
 
 ## Filosofia
 
-O padrão deve favorecer clareza, rastreabilidade e aplicação prática. A documentação deve orientar decisões reais, evitar excesso de abstração e permitir exceções justificadas quando o contexto técnico exigir.
+A documentação deve existir para melhorar entendimento, decisão, execução, revisão ou operação. O padrão favorece clareza em vez de volume, rastreabilidade em vez de memória informal e atualização contínua em vez de documentos estáticos que perdem valor.
+
+Exceções são permitidas quando o contexto justificar, mas devem ser registradas para preservar aprendizado e evitar inconsistência silenciosa.
 
 ## Evolução
 
-A evolução ocorre por versões planejadas, revisão contínua e registro de mudanças relevantes. Novas orientações devem nascer no backlog, amadurecer em documentos ou templates e ser comunicadas no changelog quando impactarem a forma de trabalho das equipes.
+A evolução do módulo ocorre por versões documentadas em roadmap, backlog, changelog e release notes. A versão 1.0 estabelece a fundação completa. Versões futuras devem expandir exemplos, checklists, automações e governança de adoção com base no uso real em projetos.
